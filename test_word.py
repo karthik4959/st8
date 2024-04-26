@@ -1,11 +1,11 @@
-from wordcounter import WordCounter
+from word import WordCounter
 
 wordcounter = WordCounter()
 
 
 def test_count_uppercase():
-    text = "Hello, World"
-    expected_result = 2
+    text = "HEllo, World"
+    expected_result = 3
     result = wordcounter.count_uppercase(text)
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
 
