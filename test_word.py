@@ -20,7 +20,7 @@ def test_count_lowercase():
 """
 def test_count_vowels():
     text = "Hello, World" # Input for the test
-    expected_result = 2 # expected out put for the test
+    expected_result = 3 # expected out put for the test
     result = wordcounter.count_vowels(text) # Result for the test
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}" # print statement
 
