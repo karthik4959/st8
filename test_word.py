@@ -34,6 +34,6 @@ def test_count_total_chars():
 """
 def test_count_total_words():
     text = "Hello, World vvvv" # input for the test case
-    expected_result = 2 # Input for the test case
+    expected_result = 3 # Input for the test case
     result = wordcounter.count_total_words(text) # result for the test case
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
