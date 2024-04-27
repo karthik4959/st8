@@ -2,9 +2,9 @@ import re
 
 
 class WordCounter:
-
+#function to count the number of upper case letters in the given string
     def count_uppercase(self, text):
-
+        return sum(1 for char in text if char.isupper())
 """
     def count_lowercase(self, text):
         return sum(1 for char in text if char.islower())
