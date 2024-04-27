@@ -1,5 +1,6 @@
 import unittest
 from word import WordCounter
+# Unit testing for the functions
 class TestWordCounter(unittest.TestCase):
         def test_count_uppercase(self):
             self.assertEqual(WordCounter.count_uppercase(self, "Hello World"), 2)
