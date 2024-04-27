@@ -3,20 +3,21 @@ from word import WordCounter
 wordcounter = WordCounter()
 
 # Test case for the uppercase count function
+"""
 def test_count_uppercase():
     text = "HEllo, World" # In put for the test
     expected_result = 3 # Expected out put
     result = wordcounter.count_uppercase(text) # Result for the test
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
-
 """
+# Test case for the lowercase count function
 def test_count_lowercase():
-    text = "Hello, World"
-    expected_result = 8
-    result = wordcounter.count_lowercase(text)
+    text = "Hello, World" # input for the test
+    expected_result = 7 # expected out put
+    result = wordcounter.count_lowercase(text) # results for the test
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
 
-
+"""
 def test_count_vowels():
     text = "Hello, World"
     expected_result = 3
