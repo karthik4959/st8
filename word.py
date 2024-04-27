@@ -13,9 +13,9 @@ class WordCounter:
      #   vowels = 'aeiouAEIOU'
       #  return sum(1 for char in text if char in vowels)
 # MEthod to count total number of characters in the given string including spaces and special characters
-    def count_total_chars(self, text):
-        return len(text)
-
-    #def count_total_words(self, text):
-     #   words = re.findall(r'\b\w+\b', text)
-      #  return len(words)
+    #def count_total_chars(self, text):
+     #   return len(text)
+# Method to count total number of words in the given string
+    def count_total_words(self, text):
+        words = re.findall(r'\b\w+\b', text)
+        return len(words)

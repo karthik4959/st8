@@ -24,7 +24,7 @@ def test_count_vowels():
     result = wordcounter.count_vowels(text) # Result for the test
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}" # print statement
 
-"""
+
 def test_count_total_chars():
     text = "Hello, World" # input for the test
     expected_result = 12 # Expected output for the test
@@ -33,8 +33,7 @@ def test_count_total_chars():
 
 """
 def test_count_total_words():
-    text = "Hello, World vvvv"
-    expected_result = 3
-    result = wordcounter.count_total_words(text)
+    text = "Hello, World vvvv" # input for the test case
+    expected_result = 2 # Input for the test case
+    result = wordcounter.count_total_words(text) # result for the test case
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
-"""
