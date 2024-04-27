@@ -13,7 +13,7 @@ def test_count_uppercase():
 # Test case for the lowercase count function
 def test_count_lowercase():
     text = "Hello, World" # input for the test
-    expected_result = 7 # expected out put
+    expected_result = 8 # expected out put
     result = wordcounter.count_lowercase(text) # results for the test
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
 
