@@ -4,7 +4,7 @@ import re
 class WordCounter:
 
     def count_uppercase(self, text):
-        #return sum(1 for char in text if char.isupper())
+        return sum(1 for char in text if char.isupper())
 """
     def count_lowercase(self, text):
         return sum(1 for char in text if char.islower())
