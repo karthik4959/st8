@@ -9,7 +9,7 @@ def test_count_uppercase():
     expected_result = 3 # Expected out put
     result = wordcounter.count_uppercase(text) # Result for the test
     assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
-"""
+
 # Test case for the lowercase count function
 def test_count_lowercase():
     text = "Hello, World" # input for the test
@@ -19,12 +19,12 @@ def test_count_lowercase():
 
 """
 def test_count_vowels():
-    text = "Hello, World"
-    expected_result = 3
-    result = wordcounter.count_vowels(text)
-    assert result == expected_result, f"Expected: {expected_result}, but got: {result}"
+    text = "Hello, World" # Input for the test
+    expected_result = 2 # expected out put for the test
+    result = wordcounter.count_vowels(text) # Result for the test
+    assert result == expected_result, f"Expected: {expected_result}, but got: {result}" # print statement
 
-
+"""
 def test_count_total_chars():
     text = "Hello, World"
     expected_result = 12
