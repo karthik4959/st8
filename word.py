@@ -12,7 +12,7 @@ class WordCounter:
     def count_vowels(self, text):
         vowels = 'aeiouAEIOU'
         return sum(1 for char in text if char in vowels)
-# MEthod to count total number of characters in the given string including spaces and special characters
+# Method to count total number of characters in the given string including spaces and special characters
     def count_total_chars(self, text):
         return len(text)
 # Method to count total number of words in the given string
